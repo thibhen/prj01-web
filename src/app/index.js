@@ -12,6 +12,7 @@ import {TodoItemComponent} from './components/TodoItem';
 import {TodoTextInputComponent} from './components/TodoTextInput';
 
 /** THE */
+import {HttpModule} from '@angular/http';
 import {TheAppComponent} from './containers/TheApp';
 import {TheFormComponent} from './components/TheForm';
 /** THE */
@@ -21,7 +22,8 @@ import {TheFormComponent} from './components/TheForm';
     BrowserModule,
     FormsModule,
     routing,
-    store
+    store,
+    HttpModule /** THE */
   ],
   declarations: [
     RootComponent,

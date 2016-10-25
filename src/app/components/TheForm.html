@@ -1,10 +1,9 @@
+<header class="header">
+	<h1>The Form</h1>
+</header>
 
-	<header class="header">
-		<h1>The Form!</h1>
-	</header>
-
-	<section class="main the">
-  <form #form="ngForm" (ngSubmit)="save()">
+<section class="main the">
+	<form #form="ngForm" (ngSubmit)="save()">
 		<ul class="todo-list">
 			<li>
 				<input [(ngModel)]="the.firstname" name="firstname" type="text" placeholder="Your firstname" />
@@ -18,15 +17,15 @@
 			<li>
 				<input [(ngModel)]="the.email" name="email" type="email" placeholder="Your email" />
 			</li>
-			</ul>
-				<button type="button" (click)="clear()">Clear</button>
-        <button type="button" (click)="random()">Random</button>
-        <button type="submit">Submit</button>
-				
+		</ul>
+		<button type="button" (click)="clear()">Clear</button>
+		<button type="button" (click)="random()">Random</button>
+		<button type="submit">Submit</button>
+
+
 	</form>
 
 
-
-
+	<p class="info">Info : {{message}}</p>
 
 </section>
