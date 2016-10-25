@@ -1,0 +1,24 @@
+
+section.main.the {
+    padding: 10px 10px 10px 10px;
+}
+
+.the { 
+    input {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    
+    button {
+        display: inline-block;
+        width: 20%;
+        /* margin: auto; */
+        background: #553636;
+        color: white;
+        margin-left: 10%;
+    }
+}

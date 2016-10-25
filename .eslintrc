@@ -13,7 +13,8 @@
         "no-unused-vars" : 2,
         "no-undef" : 2
     },
-     "parser": "babel-eslint","parserOptions": {
+     "parser": "babel-eslint",
+     "parserOptions": {
         "sourceType": "module"
     }
 }

@@ -11,6 +11,11 @@ import {MainSectionComponent} from './components/MainSection';
 import {TodoItemComponent} from './components/TodoItem';
 import {TodoTextInputComponent} from './components/TodoTextInput';
 
+/** THE */
+import {TheAppComponent} from './containers/TheApp';
+import {TheFormComponent} from './components/TheForm';
+/** THE */
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -25,8 +30,10 @@ import {TodoTextInputComponent} from './components/TodoTextInput';
     HeaderComponent,
     MainSectionComponent,
     TodoItemComponent,
-    TodoTextInputComponent
+    TodoTextInputComponent,
+    TheAppComponent,/** THE */
+    TheFormComponent /** THE */
   ],
-  bootstrap: [RootComponent]
+  bootstrap: [RootComponent] 
 })
 export class AppModule {}

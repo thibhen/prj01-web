@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 import {RouterModule} from '@angular/router';
 import {AppComponent} from './containers/App';
+import {TheAppComponent} from './containers/TheApp'; /** THE */
 
 @Component({
   selector: 'fountain-root',
@@ -8,9 +9,14 @@ import {AppComponent} from './containers/App';
 })
 export class RootComponent {}
 
+
 export const routes = [
   {
     path: '',
+    component: TheAppComponent
+  },
+  {
+    path: 'todo',
     component: AppComponent
   }
 ];
